@@ -40,6 +40,6 @@ print("varT "+varS)
 - [ ] Update the website
 - [ ] Contact the media  
 
+== You can find more information here ==  
 
-==You cab find more information here:==
-https://www.markdownguide.org/
+<https://www.markdownguide.org/>  
