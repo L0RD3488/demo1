@@ -28,10 +28,10 @@ app.use(checkApiKey);
 app.use(bodyParser.text());
 
 app.get('/get', (req, res) => {
-const get = fs.readFileSync('./stats.txt', {flag: 'r'});
-res.send(txtString);
+  const get = fs.readFileSync('./stats.txt', { flag: 'r' });
+  res.send(txtString);
 });; // Connect and request (Get) from Android to 192.xxx.xxx.xxx:3030  (ubuntu)
-  
+
 app.use(bodyParser.json());
 
 app.post('/post', (req, res) => {
